@@ -1,4 +1,2 @@
-# website-portfolio-rek
+# website-portfolio
 
-personal website for Firdaus
-Ini baru ada feature

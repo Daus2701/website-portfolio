@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <section style="background-color: blanchedalmond;">
+            <form>
+                <fieldset>
+                    <legend><strong>Personal Information</strong></legend>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" required placeholder="Your Name"/><br><br>
+
+                    <label for="email">Your Email</label><br>
+                    <input type="email" id="email" required placeholder="Your Email"/><br><br>
+
+                    <label for="wa-number">Your WhatsApp Number</label><br>
+                    <input type="tel" id="wa-number" required placeholder="Your Number"/>
+                </fieldset>
+            </form>
+        </section>
+
+        <section><br></section>
+
+        <section style="background-color: blanchedalmond;">
+            <form>
+                <fieldset>
+                    <legend><strong>Project Information</strong></legend>
+
+                    <label for="website-type">What type of website do you want to build?</label><br>
+                    <select id="website-type">
+                        <option value="#">Choose One</option>
+                        <option value="business-website">Business Website</option>
+                        <option value="portfolio-website">Portfolio Website</option>
+                        <option value="custom">Custom Web App</option>
+                    </select><br><br>
+
+                    <label for="design">Do you already have design materials?</label><br>
+                    <input type="radio" id="yes-design" name="design" value="yes-design">
+                    <label for="html">Yes</label>
+                    <input type="radio" id="no-design" name="design" value="no-design">
+                    <label for="css">No</label><br><br>
+
+                    <label for="describe">Project Goals / Description:</label><br>
+                    <input type="text" id="describe"/><br><br>
+
+                    <label for="reference">Upload a Reference Image:</label>
+                    <input type="file" id="reference" name="reference"/>
+                </fieldset>
+            </form>
+        </section>
+
+        <section><br></section>
+
+        <section style="background-color: blanchedalmond;">
+            <form>
+                <fieldset>
+                    <legend><strong>Timeline and Expectations</strong></legend>
+
+                    <label for="date">Expected Start Date:</label><br>
+                    <input type="date" id="date"/><br><br>
+
+                    <label for="estimated">Estimated Duration (weeks):</label><br>
+                    <input type="number" id="estimated" required placeholder="e.g 6"/>
+                </fieldset>
+            </form>
+        </section>
+        
+        <section><br></section>
+        <form>
+            <button type="submit">Submit Request</button>
+        </form>
+    </body>
+</html>
